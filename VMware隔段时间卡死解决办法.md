@@ -8,7 +8,7 @@
 
 上网查阅，根据几篇博客如 (https://blog.csdn.net/weixin_62952541/article/details/130229182) 操作，仍不能解决问题。
 
-决定重装VMware（借助CCleaner清理注册表，手动删了不少东西才差不多删干净），当天晚上效果良好，到了实验课给老师演示的时候直接又卡死了，cnm
+决定重装VMware（借助CCleaner清理注册表，手动删了不少东西才差不多删干净），当天晚上效果良好，到了实验课给老师演示的时候直接又卡死了
 
 最后通过[这篇博客](https://blog.csdn.net/ss810540895/article/details/134189242?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-1-134189242-blog-135236536.235^v43^pc_blog_bottom_relevance_base3&spm=1001.2101.3001.4242.2&utm_relevant_index=4)
 解决了该问题。
