@@ -22,7 +22,7 @@
 
   解决方式：运行`hdfs dfsadmin -safemode leave`(或`hdfs dfsadmin -safemode forceexit`强制退出)离开hdfs安全模式；
 
-  在hive配置文件下添加`hive.server2.active.passive.ha.enable`值为`ture`
+  在hive配置文件下添加`hive.server2.active.passive.ha.enable`值为`true`
 
   注意事项：可以在hdfs的网页服务端口查看safemode的自动启动原因，在退出安全模式后最好先修复问题再进行读写操作
 
