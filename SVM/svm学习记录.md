@@ -12,5 +12,11 @@
 
 [机器学习技法（林轩田）](https://www.bilibili.com/video/BV1ix411i7yp?p=7&vd_source=bd9b0c20658086a80ddce73476f5c881)
 
+[SVM详解系列](https://zhuanlan.zhihu.com/p/62367247)
+
+Platt, John. “Sequential Minimal Optimization : A Fast Algorithm for Training Support Vector Machines.” Microsoft Research Technical Report (1998): n. pag.
+
+Stephen Boyd and Lieven Vandenberghe. Convex Optimization. Cambridge University Press, 2004.
+
 ## SVM简介
 
