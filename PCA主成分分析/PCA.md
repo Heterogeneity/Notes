@@ -26,7 +26,7 @@ PCA (principal component analysis) 主要是给数据**降维**用的一种方�
 
 用lagrange乘子法求解该问题：
 
-$`F(v) = v^{T}C_{n*n}v - \lambda(1 - v^{T}v)`$，这里写作$`-\lambda`$为了后续方便，对结果无影响。对v求偏导令其等于0得到$`C_{n*n}v = \lambda v`$，这里用到矩阵求导公式$`\frac{\partial{x^{T}Ax}}{\partial x} = Ax + A^Tx`$和$`\frac{\partial{x^{T}x}}{\partial x} = 2x`$。
+$`F(v) = v^{T}C_{n*n}v + \lambda(1 - v^{T}v)`$。对v求偏导令其等于0得到$`C_{n*n}v = \lambda v`$，这里用到矩阵求导公式$`\frac{\partial{x^{T}Ax}}{\partial x} = Ax + A^Tx`$和$`\frac{\partial{x^{T}x}}{\partial x} = 2x`$。
 
 我们发现最优解$`v`$满足$`C_{n*n}v = \lambda v`$，即$`v`$是矩阵$`C_{n*n}`$的特征向量。进一步来看，将该等式带入式$`S^2 = v^{T}C_{n*n}v`$，有$`S^2 = v^{T} \lambda v`$，又由于$`v`$是单位向量，其内积为1，故$`S^2 = \lambda`$，事实上，如果要求后续第k基向量，只需要添加约束条件使前面求得的基向量与$`v_k`$内积为0，再用lagrange乘子法求解即可。这样我们就从数学上知道，样本投影值方差最大的那个标准基向量方向即是协方差矩阵最大特征值对应的特征向量的方向，而如果去掉这一维度，其他维度上的样本投影值方差最大的那个标准基向量方向即是协方差矩阵第二大特征值对应的特征向量的方向，以此类推。
 
