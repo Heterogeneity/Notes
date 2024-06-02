@@ -27,7 +27,7 @@
 
 注意事项：若出现"unexpected output in sfdisk --version"报错，则键入命令`LANG=en_US.UTF-8`，解决编码问题，仍报错重启虚拟机即可。
 
-`xfs_growfs /dev/sda5` 用于扩容文件系统
+`xfs_growfs /dev/sda3` 用于扩容文件系统
 
 注意事项：若出现"resize2fs: Bad magic number in super-block while trying to open ···"报错，则使用`parted -l`查看根分区的文件系统是什么类型，若是ext2、ext3、ext4文件系统，将命令中`xfs_growfs`改为`resize2fs`即可。
 
