@@ -1,4 +1,6 @@
-![image](https://github.com/Heterogeneity/Notes/assets/102458836/31e8e78f-3a43-4fee-9167-66ab471f5daa)# KL散度
+# KL散度
+
+![image](https://github.com/Heterogeneity/Notes/assets/102458836/31e8e78f-3a43-4fee-9167-66ab471f5daa)
 
 KL散度（Kullback-Leibler divergence），可以以称作相对熵（relative entropy）或信息散度（information divergence）。
 
